@@ -10,7 +10,7 @@ const email = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 
 
-form.addEventListener("submit", function (e) {
+form.addEventListener("onsubmit", function (e) {
 	// body...
 	e.preventDefault();
 
