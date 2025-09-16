@@ -4,13 +4,14 @@ const form = document.querySelector("#form");
 const Username = document.querySelector("#name");
 const Password = document.querySelector("#password");
 const Email = document.querySelector("#email");
+const Btn = document.querySelector("#submit");
 const username = /^[a-zA-z0-9_]+$/;
 const password = /^[a-zA-Z0-9_]+$/;
 const email = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 
 
-form.addEventListener("onsubmit", function (e) {
+form.addEventListener("submit", function (e) {
 	// body...
 	e.preventDefault();
 
